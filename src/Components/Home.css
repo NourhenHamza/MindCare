@@ -1,0 +1,61 @@
+/* Home.css */
+
+/* Main container styles */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, rgba(0, 132, 255, 0.7), rgba(255, 187, 47, 0.7));
+    color: white;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Text container styles */
+  .text-container {
+    max-width: 600px;
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.5); /* Slight dark background for contrast */
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Title styling */
+  .title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #b0bbc4;
+  }
+  
+  /* Description text styling */
+  .description {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    color: #d1d5db;
+    line-height: 1.6;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .home-container {
+      padding: 10px;
+    }
+  
+    .text-container {
+      padding: 1rem;
+      width: 100%;
+    }
+  
+    .title {
+      font-size: 2rem;
+    }
+  
+    .description {
+      font-size: 1rem;
+    }
+  }
+  
