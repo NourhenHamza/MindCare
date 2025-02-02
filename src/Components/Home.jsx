@@ -1,14 +1,14 @@
-/* Home.jsx */
-import React from 'react';
-import './Home.css'; // Import the CSS file
 
-export default function Home() {
+import React from 'react';
+import './Home.css';
+
+const Home =()=>{
   return (
     <div className="home-container">
-      {/* Container for Logo and Buttons in a row */}
+      {}
       
 
-      {/* Container for Text Description */}
+      {}
       <div className="text-container">
         <h2 className="title">
           Welcome to CME Mental Health
@@ -21,3 +21,4 @@ export default function Home() {
     </div>
   );
 }
+export default Home

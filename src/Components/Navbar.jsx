@@ -1,8 +1,8 @@
-/* psychologists.css */
+
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 
-export default function Navbar() {
+const Navbar =()=>{
     return (
         <nav className="navbar">
             {/* Logo and Title Container */}
@@ -20,3 +20,4 @@ export default function Navbar() {
         </nav>
     );
 }
+export default Navbar

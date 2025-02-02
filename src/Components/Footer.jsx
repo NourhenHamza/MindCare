@@ -1,5 +1,5 @@
 /* Footer.jsx */
-export default function Footer() {
+const Footer =()=>{
     return (
       <footer className="bg-gray-800 text-white py-6 mt-8 text-center">
         <p className="text-lg font-semibold">🎨 Art Therapy Hub</p>
@@ -16,4 +16,4 @@ export default function Footer() {
       </footer>
     );
   }
-  
+export default Footer
