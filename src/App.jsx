@@ -1,10 +1,10 @@
 /*App.jsx*/
 import { Route, Routes } from "react-router-dom";
-import Footer from "./Components/Footer"; // Import the Footer component
+import Footer from "./Components/Footer";
 import Home from "./Components/Home";
-import Memes from "./Components/Memes"; // Assuming you have a Memes component
-import Navbar from "./Components/Navbar";
-import Todos from "./Components/Todos"; // Assuming you have a Todos component
+import Memes from "./Components/Memes"; 
+import Navbar from "./Components/Navbar"; 
+import Psychologists from "./Components/Psychologists";
 
 function App() {
   return (
@@ -12,10 +12,10 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/psychologists" element={<Todos />} />
+        <Route path="/psychologists" element={<Psychologists />} />
         <Route path="/therapies" element={<Memes />} />
       </Routes>
-      <Footer /> {/* Added Footer here */}
+      <Footer /> {}
     </>
   );
 }
