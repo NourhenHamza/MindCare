@@ -64,7 +64,7 @@
 }
  
 body {
-  background: linear-gradient(135deg, rgba(0, 132, 255, 0.7), rgba(255, 187, 47, 0.7));
+  background: linear-gradient(135deg, rgba(136, 69, 121, 0.7), rgba(193, 123, 180, 0.7));
   height: 100vh; /* Make sure it covers the entire page */
   margin: 0; /* Remove default margin */
 }
@@ -74,6 +74,7 @@ body {
   flex-wrap: wrap;
   gap: 16px; /* Adds space between cards */
   justify-content: center;
+  
 }
 
 .meme-card {
